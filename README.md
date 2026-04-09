@@ -10,3 +10,6 @@ The goal of this project is to analyze how casual riders and annual members use 
 1. How do annual members and casual riders use Cyclistc bikes differently?
 2. Why would casual riders buy Cyclist annual memberships?
 3. How can Cyclistic use digital media to influence casual riders to become members?
+### Scope of This Analysis
+This project is part of a team-based analysis. The focus of this work is on the first question:
+**How do annual members and casual riders use Cyclistic bikes differently?**
