@@ -5,7 +5,7 @@ This project follows the six-step data analysis process from the Google Data Ana
 ## Business Task
 The goal of this project is to analyze how casual riders and annual members use Cyclistic bikes differently, and provide recommendations to convert casual riders into members.
 
-## Ask
+# Ask
 ### Key Business Questions
 1. How do annual members and casual riders use Cyclistc bikes differently?
 2. Why would casual riders buy Cyclist annual memberships?
