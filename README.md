@@ -16,7 +16,7 @@ This project is part of a team-based analysis. The focus of this work is on the 
 **How do annual members and casual riders use Cyclistic bikes differently?**
 
 ## Objetives
-- Analyze usage patterns (duration, frequency, days) among standard users and members.
+- Analyze usage patterns (duration, frequency, days) among casual users and  annual members.
 - Identify patterns to generate insights.
 - Share key findings.
 - Generate recommendations.
