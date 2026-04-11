@@ -5,7 +5,6 @@ This project follows the six-step data analysis process from the Google Data Ana
 ## Business Task
 The goal of this project is to analyze how casual riders and annual members use Cyclistic bikes differently, and provide recommendations to convert casual riders into members.
 
-# Ask
 ### Key Business Questions
 1. How do annual members and casual riders use Cyclistc bikes differently?
 2. Why would casual riders buy Cyclist annual memberships?
@@ -21,3 +20,13 @@ This project is part of a team-based analysis. The focus of this work is on the 
 - Share key findings.
 - Generate recommendations.
 
+## Data Source
+
+The dataset used for this project is provided by Divvy Bikes, a bike-sharing system in Chicago.
+
+This dataset is used as part of the *Cyclistic* case study from the Google Data Analytics Certificate.
+
+Data is publicly available at:
+[Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
+
+Due to file size limitations, the dataset is not stored in this repository. Instead, it can be accessed and downloaded from the official source.
