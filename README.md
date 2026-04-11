@@ -30,3 +30,10 @@ Data is publicly available at:
 [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
 Due to file size limitations, the dataset is not stored in this repository. Instead, it can be accessed and downloaded from the official source.
+
+## Data Privacy and License
+
+The dataset is made available by Divvy Bikes under the following license agreement:
+[Divvy Data License Agreement](https://www.divvybikes.com/data-license-agreement)
+
+The data has been anonymized and does not include personally identifiable information (PII).
