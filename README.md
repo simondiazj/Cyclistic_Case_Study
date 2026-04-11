@@ -24,7 +24,7 @@ This project is part of a team-based analysis. The focus of this work is on the 
 
 The dataset used for this project is provided by Divvy Bikes, a bike-sharing system in Chicago.
 
-This dataset is used as part of the *Cyclistic* case study from the Google Data Analytics Certificate.
+This dataset is used as part of the **Cyclistic** case study from the Google Data Analytics Certificate.
 
 Data is publicly available at:
 [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
