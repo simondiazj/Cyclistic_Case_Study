@@ -37,3 +37,63 @@ The dataset is made available by Divvy Bikes under the following license agreeme
 [Divvy Data License Agreement](https://www.divvybikes.com/data-license-agreement)
 
 The data has been anonymized and does not include personally identifiable information (PII).
+
+##  Data Cleaning and Preparation Process
+
+### 1. File Preparation
+
+During the initial data loading process, duplicate file names were identified. Two CSV files corresponding to January 2025 and January 2026 had identical names, which could lead to overwriting or confusion.
+
+To resolve this, the files were renamed to ensure each dataset had a unique and identifiable name before importing into the database.
+
+---
+
+### 2. Data Validation
+
+The dataset was reviewed to ensure that key columns were in the correct format. The `started_at` and `ended_at` fields were confirmed to be in TIMESTAMP format, allowing accurate time-based calculations.
+
+---
+
+### 3. Creating Ride Duration
+
+A new variable, `ride_length`, was created using the difference between `ended_at` and `started_at` to calculate the duration of each trip in seconds.
+
+---
+
+### 4. Removing Invalid Records
+
+Records with ride durations less than or equal to zero were identified as invalid (e.g., trips ending before they started).
+A total of 17,007 records (approximately 0.05% of the dataset) were removed to ensure data accuracy.
+
+---
+
+### 5. Removing Duplicates
+
+Duplicate records were identified using `ride_id`.
+Duplicates were removed by keeping only one record per `ride_id`, ensuring each trip is uniquely represented.
+
+---
+
+### 6. Data Verification
+
+After cleaning, the dataset was validated to confirm:
+
+* No remaining invalid ride durations
+* No duplicate records
+
+---
+
+### 7. Feature Engineering
+
+Additional variables were created to support analysis:
+
+* `ride_length`: trip duration in seconds
+* `day_of_week`: day name extracted from `started_at`
+* `hour`: hour of the day extracted from `started_at`
+
+---
+
+### 8. Final Dataset
+
+A final cleaned dataset was created (`cyclistic_trips_final`) containing only valid, unique, and analysis-ready records.
+
