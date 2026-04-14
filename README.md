@@ -91,9 +91,4 @@ Additional variables were created to support analysis:
 * `day_of_week`: day name extracted from `started_at`
 * `hour`: hour of the day extracted from `started_at`
 
----
-
-### 8. Final Dataset
-
-A final cleaned dataset was created (`cyclistic_trips_final`) containing only valid, unique, and analysis-ready records.
 
