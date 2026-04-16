@@ -82,8 +82,16 @@ After cleaning, the dataset was validated to confirm:
 * No duplicate records
 
 ---
+### 7. Removing Outliers
 
-### 7. Feature Engineering
+Ride duration distribution was analyzed using quantiles.
+Most trips were under 30 minutes, with extreme values reaching up to several days.
+
+To ensure realistic analysis, trips longer than 2 hours were removed.
+
+---
+
+### 8. Feature Engineering
 
 Additional variables were created to support analysis:
 
