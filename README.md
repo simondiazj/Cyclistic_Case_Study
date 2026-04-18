@@ -12,7 +12,7 @@ The goal of this project is to analyze how casual riders and annual members use 
 1. How do annual members and casual riders use Cyclistc bikes differently?
 2. Why would casual riders buy Cyclist annual memberships?
 3. How can Cyclistic use digital media to influence casual riders to become members?
-### 🟢Scope of This Analysis
+### 🟡Scope of This Analysis
 This project is part of a team-based analysis. The focus of this work is on the first question:
 
 **How do annual members and casual riders use Cyclistic bikes differently?**
@@ -23,7 +23,7 @@ This project is part of a team-based analysis. The focus of this work is on the 
 - Share key findings.
 - Generate recommendations.
 
-## 🟡Data Source
+## 🟢Data Source
 
 The dataset used for this project is provided by Divvy Bikes, a bike-sharing system in Chicago, as part of the Cyclistic case study from the Google Data Analytics Certificate.
 
@@ -40,7 +40,7 @@ The dataset is made available by Divvy Bikes under the following license agreeme
 
 The data has been anonymized and does not include personally identifiable information (PII).
 
-##  Data Cleaning and Preparation Process
+##  🔴Data Cleaning and Preparation Process
 
 ### 1. File Preparation
 
@@ -101,7 +101,7 @@ Additional variables were created to support analysis:
 * `day_of_week`: day name extracted from `started_at`
 * `hour`: hour of the day extracted from `started_at`
 
-## Key Insights
+## 🟡Key Insights
 
 **Usage Frequency**  
 Members account for a higher number of total rides compared to casual users, indicating more frequent and consistent usage of the bike-sharing service.
