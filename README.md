@@ -47,56 +47,67 @@ To resolve this, the files were renamed to ensure each dataset had a unique and 
 
 ---
 
-### 2. Data Validation
+### 2. Data Consolidation
+
+Multiple monthly CSV files were combined into a single dataset to enable a unified analysis.
+
+All datasets were appended into one table (`cyclistic_trips`) after verifying that they shared consistent column names and data types.
+
+---
+
+### 3. Data Validation
 
 The dataset was reviewed to ensure that key columns were in the correct format. The `started_at` and `ended_at` fields were confirmed to be in TIMESTAMP format, allowing accurate time-based calculations.
 
 ---
 
-### 3. Creating Ride Duration
+### 4. Creating Ride Duration
 
 A new variable, `ride_length`, was created using the difference between `ended_at` and `started_at` to calculate the duration of each trip in seconds.
 
 ---
 
-### 4. Removing Invalid Records
+### 5. Removing Invalid Records
 
 Records with ride durations less than or equal to zero were identified as invalid (e.g., trips ending before they started).
+
 A total of 17,007 records (approximately 0.05% of the dataset) were removed to ensure data accuracy.
 
 ---
 
-### 5. Removing Duplicates
+### 6. Removing Duplicates
 
 Duplicate records were identified using `ride_id`.
+
 Duplicates were removed by keeping only one record per `ride_id`, ensuring each trip is uniquely represented.
 
 ---
 
-### 6. Data Verification
+### 7. Data Verification
 
 After cleaning, the dataset was validated to confirm:
 
-* No remaining invalid ride durations
-* No duplicate records
+- No remaining invalid ride durations  
+- No duplicate records  
 
 ---
-### 7. Removing Outliers
 
-Ride duration distribution was analyzed using quantiles.
-Most trips were under 30 minutes, with extreme values reaching up to several days.
+### 8. Removing Outliers
+
+Ride duration distribution was analyzed using quantiles. Most trips were under 30 minutes, while extreme values reached up to several days.
 
 To ensure realistic analysis, trips longer than 2 hours were removed.
 
 ---
 
-### 8. Feature Engineering
+### 9. Feature Engineering
 
 Additional variables were created to support analysis:
 
-* `ride_length`: trip duration in seconds
-* `day_of_week`: day name extracted from `started_at`
-* `hour`: hour of the day extracted from `started_at`
+- `ride_length`: trip duration in seconds  
+- `day_of_week`: day name extracted from `started_at`  
+- `hour`: hour of the day extracted from `started_at`  
+
 
 ## 🟡Key Insights
 
