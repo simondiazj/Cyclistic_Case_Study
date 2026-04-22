@@ -116,7 +116,7 @@ Additional variables were created to support analysis:
 - Electric bikes are the most popular rideable type for both user groups, but members use them more frequently.
 - Casual users show relatively higher usage on weekends compared to members, reinforcing the idea of recreational use.
 
-## 📊 Dashboard
+## 🔴Dashboard
 
 The following dashboard was created in Tableau to visualize key behavioral differences between casual riders and annual members.
 
