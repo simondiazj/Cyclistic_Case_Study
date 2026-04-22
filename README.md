@@ -121,3 +121,17 @@ Additional variables were created to support analysis:
 The following dashboard was created in Tableau to visualize key behavioral differences between casual riders and annual members.
 
 [View Interactive Dashboard](https://public.tableau.com/views/charts_17767358146190/Dashboard1)
+
+## 🔵Recommendations
+
+Based on the analysis, the following strategies are recommended to convert casual riders into members:
+
+- **Target casual riders with weekend promotions:** Since casual users are more active on weekends, offer discounts or membership trials during these days.
+
+- **Promote membership for commuting benefits:** Highlight cost savings and convenience for frequent riders, especially during peak commuting hours.
+
+- **Encourage electric bike usage through membership perks:** Offer exclusive benefits or pricing for electric bike usage to attract more casual riders.
+
+- **Introduce loyalty or rewards programs:** Incentivize frequent usage among casual riders to transition them into members.
+
+- **Use targeted marketing campaigns:** Focus on users with longer ride durations and frequent usage patterns, as they are more likely to convert into members.
