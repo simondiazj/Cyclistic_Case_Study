@@ -108,26 +108,13 @@ Additional variables were created to support analysis:
 - `day_of_week`: day name extracted from `started_at`  
 - `hour`: hour of the day extracted from `started_at`  
 
-
 ## 🟡Key Insights
 
-**Usage Frequency**  
-Members account for a higher number of total rides compared to casual users, indicating more frequent and consistent usage of the bike-sharing service.
-
-**Ride Duration**  
-Casual riders have a higher average ride duration than members, suggesting a tendency toward longer, less frequent trips.
-
-**Weekly Behavior**  
-Casual riders show increased activity during weekends, while members are more active on weekdays, reflecting different usage patterns between the two groups.
-
-**Hourly Behavior**  
-Members exhibit clear peak usage during morning and late afternoon hours, while casual riders display a more gradual increase in activity, with peak usage occurring later in the day.
-
-**Bike Type Preference**  
-Both user groups show a preference for electric bikes, followed by classic bikes, while electric scooters show minimal usage across both groups.
-
-**Overall Insight**  
-Overall, members demonstrate more consistent and frequent usage patterns, while casual riders exhibit longer and more variable ride behavior, particularly during weekends and later hours of the day.
+- Members take significantly more rides than casual users, indicating higher engagement and frequent usage.
+- Casual riders have longer average trip durations, suggesting they use the service more for leisure rather than commuting.
+- Peak usage for members occurs during typical commuting hours (morning and evening), while casual users show more activity in the afternoon.
+- Electric bikes are the most popular rideable type for both user groups, but members use them more frequently.
+- Casual users show relatively higher usage on weekends compared to members, reinforcing the idea of recreational use.
 
 ## 📊 Dashboard
 
