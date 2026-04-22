@@ -128,3 +128,9 @@ Both user groups show a preference for electric bikes, followed by classic bikes
 
 **Overall Insight**  
 Overall, members demonstrate more consistent and frequent usage patterns, while casual riders exhibit longer and more variable ride behavior, particularly during weekends and later hours of the day.
+
+## 📊 Dashboard
+
+The following dashboard was created in Tableau to visualize key behavioral differences between casual riders and annual members.
+
+[View Interactive Dashboard](https://public.tableau.com/views/charts_17767358146190/Dashboard1)
