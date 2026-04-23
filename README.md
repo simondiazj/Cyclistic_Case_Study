@@ -135,3 +135,11 @@ Based on the analysis, the following strategies are recommended to convert casua
 - **Introduce loyalty or rewards programs:** Incentivize frequent usage among casual riders to transition them into members.
 
 - **Use targeted marketing campaigns:** Focus on users with longer ride durations and frequent usage patterns, as they are more likely to convert into members.
+
+  ## 🟢Conclusion
+
+This analysis highlights clear behavioral differences between casual riders and members.
+
+Members tend to use the service more frequently and for commuting, while casual riders prefer longer, leisure-oriented trips.
+
+These insights provide a strong foundation for targeted marketing strategies aimed at increasing membership conversion.
