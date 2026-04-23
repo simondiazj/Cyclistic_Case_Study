@@ -1,0 +1,21 @@
+Cyclistic Dataset
+
+Source:
+Divvy Trip Data (Chicago Bike Share)
+https://divvy-tripdata.s3.amazonaws.com/index.html
+
+Description:
+This dataset contains historical trip data from the Cyclistic bike-share program.
+
+For this analysis, only the most recent five years of available data were used, with records up to March 2026.
+
+It includes:
+- Ride IDs
+- Start and end timestamps
+- User type (member vs casual)
+- Bike type
+- Station information
+
+Note:
+The dataset was cleaned and transformed using SQL in BigQuery before analysis.
+Due to file size limitations, the full dataset is not included in this repository.
