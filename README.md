@@ -1,4 +1,5 @@
 # Cyclistic_Case_Study
+Business Problem | Data Cleaning | SQL Analysis | Tableau Dashboard
 Project for Cyclistic company, identifying the behavior of regular users versus members for marketing strategy (Google Data Analytics Capstone)
 ## 🟢Project Framework
 This project follows the six-step data analysis process from the Google Data Analytics Certificate: Ask-Prepare-Process-Analize-Share-Act
